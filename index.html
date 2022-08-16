@@ -21,15 +21,15 @@
     />
 
     <main class="container-input">
-      <span>Size <span id="value"></span> character</span>
+      <span>Size: <span id="value"></span> characters</span>
       <input id="slider" class="slider" type="range" min="5" max="25" value="15">
 
-      <button id="button" class="button-cta">Generate Password</button>
+      <button id="button" class="button-cta" onclick="generatePassword()">Generate Password</button>
     </main>
 
-    <div id="container-password" class="container-password hide">
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
         <span class="title">Your Random Password is:</span>
-        <span id="Password" class="password">123456789</span>
+        <span id="password" class="password"></span>
         <span class="tooltip">Click on the password to copy. 🧐</span>
     </div>
 
