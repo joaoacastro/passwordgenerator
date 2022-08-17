@@ -20,6 +20,13 @@ body {
   font-size: 22px;
 }
 
+.checkBoxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFF;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;

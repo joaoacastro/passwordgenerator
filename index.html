@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Password Generator, Gerador de Senha" />
 
+    <link rel="shortcut icon" href="assets/ico.png" type="image/x-icon">
+
     <title>-|Password Generator|-</title>
 
     <link rel="stylesheet" href="style/resetStyle.css" />
@@ -22,16 +24,39 @@
 
     <main class="container-input">
       <span>Size: <span id="value"></span> characters</span>
-      <input id="slider" class="slider" type="range" min="5" max="25" value="15">
+      <input
+        id="slider"
+        class="slider"
+        type="range"
+        min="5"
+        max="25"
+        value="15"
+      />
 
-      <button id="button" class="button-cta" onclick="generatePassword()">Generate Password</button>
+      <div class="checkBoxes">
+        <input type="checkbox" name="letters" id="letters" checked />
+        <label for="letters">Letters</label>
+
+        <input type="checkbox" name="numbers" id="numbers" />
+        <label for="numbers">Numbers</label>
+
+        <input type="checkbox" name="specialCharacters" id="specialCharacters" />
+        <label for="specialCharacters">Special Characters</label>
+      </div>
+
+      <button id="button" class="button-cta" onclick="generatePassword()">
+        Generate Password
+      </button>
     </main>
 
-    <div id="container-password" onclick="copyPassword()" class="container-password hide">
-        <span class="title">Your Random Password is:</span>
-        <span id="password" class="password"></span>
-        <span class="tooltip">Click on the password to copy. 🧐</span>
+    <div
+      id="container-password"
+      onclick="copyPassword()"
+      class="container-password hide"
+    >
+      <span class="title">Your Random Password is:</span>
+      <span id="password" class="password"></span>
+      <span class="tooltip">Click on the password to copy. 🧐</span>
     </div>
-
   </body>
 </html>

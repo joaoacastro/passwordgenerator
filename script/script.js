@@ -6,6 +6,10 @@ let password = document.querySelector("#password");
 
 let containerPassword = document.querySelector("#container-password");
 
+let letters = document.querySelector("#letters");
+let numbers = document.querySelector("#numbers");
+let specialCharacters = document.querySelector("#specialCharacters"); 
+
 let charsetUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let charsetLowerCase = "abcdefghijklmnopqrstuvwxyz";
 let charsetSpecialCharacters = "!@#$%¨&*.-";
@@ -40,5 +44,5 @@ function copyPassword() {
   navigator.clipboard
     .writeText(newPassword)
     .then(() => alert("Password copied successfully! 😁"))
-    .catch((err) => console.log("Failed to read clipboard contents: ", err))
+    .catch((err) => console.log("Failed to read clipboard contents: ", err));
 }
