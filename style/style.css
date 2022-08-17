@@ -29,7 +29,8 @@ body {
   padding: 10px;
 }
 
-.checkBox {
+.checkBoxes input,
+.checkBoxes label {
   cursor: pointer;
 }
 
