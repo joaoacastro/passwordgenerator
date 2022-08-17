@@ -27,6 +27,10 @@ body {
   color: #FFF;
 }
 
+.checkBox{
+  cursor: pointer;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
