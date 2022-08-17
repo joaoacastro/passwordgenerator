@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Password Generator, Gerador de Senha" />
 
-    <link rel="shortcut icon" href="assets/ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/ico.png" type="image/x-icon" />
 
     <title>-|Password Generator|-</title>
 
     <link rel="stylesheet" href="style/resetStyle.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
     <link rel="stylesheet" href="style/style.css" />
 
     <script src="script/script.js" defer></script>
@@ -33,15 +34,35 @@
         value="15"
       />
 
-      <div class="checkBoxes">
-        <input type="checkbox" name="letters" id="letters" checked />
-        <label for="letters" class="checkBox">Letters</label>
+      <div class="containerCheckBoxes">
+        <div class="checkBoxes">
+          <div class="lettersCheckBox">
+            <input type="checkbox" name="letters" id="letters" class="checkBox" checked />
+            <label for="letters" class="checkBox">Letters</label>
+          </div>
 
-        <input type="checkbox" name="numbers" id="numbers" class="checkBox" />
-        <label for="numbers" class="checkBox">Numbers</label>
+          <div class="numbersCheckBox">
+            <input
+              type="checkbox"
+              name="numbers"
+              id="numbers"
+              class="checkBox"
+            />
+            <label for="numbers" class="checkBox">Numbers</label>
+          </div>
 
-        <input type="checkbox" name="specialCharacters" id="specialCharacters" class="checkBox" />
-        <label for="specialCharacters" class="checkBox">Special Characters</label>
+          <div class="specialCharactersCheckBox">
+            <input
+              type="checkbox"
+              name="specialCharacters"
+              id="specialCharacters"
+              class="checkBox"
+            />
+            <label for="specialCharacters" class="checkBox"
+              >Special Characters</label
+            >
+          </div>
+        </div>
       </div>
 
       <button id="button" class="button-cta" onclick="generatePassword()">

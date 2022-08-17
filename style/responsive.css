@@ -1,0 +1,19 @@
+@media (max-width:500px){
+    .logo{
+        width: 300px;
+    }
+    .container-input{
+        width: 200px;
+    }
+    .container-input span{
+        font-size: 10px;
+    }
+    .containerCheckBoxes {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .checkBoxes{
+
+    }
+}

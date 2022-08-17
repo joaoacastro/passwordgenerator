@@ -20,14 +20,16 @@ body {
   font-size: 22px;
 }
 
-.checkBoxes{
+.lettersCheckBox,
+.numbersCheckBox,
+.specialCharactersCheckBox {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #FFF;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
 }
 
-.checkBox{
+.checkBox {
   cursor: pointer;
 }
 
@@ -106,26 +108,26 @@ body {
   transform: scale(1.05);
 }
 
-.tooltip{
-    color: #FFF;
-    position: relative;
-    top: 20px;
-    padding: 6px 8px;
-    background-color: rgb(15,15,15);
-    border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+.tooltip {
+  color: #fff;
+  position: relative;
+  top: 20px;
+  padding: 6px 8px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 
-.container-password:hover .tooltip{
-    visibility: visible;
-    bottom: 50px;
-    opacity: 1;
+.container-password:hover .tooltip {
+  visibility: visible;
+  bottom: 50px;
+  opacity: 1;
 }
