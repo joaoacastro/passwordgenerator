@@ -1,5 +1,7 @@
 Project in development using HTML5, CSS3 and JavaScript
 
+You can check this project online through this link: https://joaoacastro.github.io/passwordgenerator/
+
 <img width="400em" src="./assets/prtscrn.png">
 <img width="400em" src="./assets/prtscrn_2.png">
 <img width="400em" src="./assets/prtscrn_err.png">
