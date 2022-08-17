@@ -1,8 +1,8 @@
 Project developed using only HTML5, CSS3 and JavaScript.
 
-You can check this project online through this link: https://joaoacastro.github.io/passwordgenerator/_blank
+You can check this project online through this link: <a href="https://joaoacastro.github.io/passwordgenerator/" _blank> Password Generator </a> 
 
-<img width="400em" src="./assets/prtscrn.png"> <img width="400em" src="./assets/prtscrn_2.png">
+<img width="400em" src="./assets/prtscrn.png"> <img width="350em" src="./assets/prtscrn_2.png">
 <img width="400em" src="./assets/prtscrn_err.png">
 
 You can check out other projects I've developed here on my GitHub, or contact me through the other links.
