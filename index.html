@@ -24,7 +24,7 @@
     />
 
     <main class="container-input">
-      <span>Size: <span id="value"></span> characters</span>
+      <span class="size">Size: <span id="value" class="sizeNumber" ></span> characters</span>
       <input
         id="slider"
         class="slider"
@@ -38,7 +38,7 @@
         <div class="checkBoxes">
           <div class="lettersCheckBox">
             <input type="checkbox" name="letters" id="letters" class="checkBox" checked />
-            <label for="letters" class="checkBox">Letters</label>
+            <label for="letters" class="checkBoxLabel">Letters</label>
           </div>
 
           <div class="numbersCheckBox">
@@ -48,7 +48,7 @@
               id="numbers"
               class="checkBox"
             />
-            <label for="numbers" class="checkBox">Numbers</label>
+            <label for="numbers" class="checkBoxLabel">Numbers</label>
           </div>
 
           <div class="specialCharactersCheckBox">
@@ -58,7 +58,7 @@
               id="specialCharacters"
               class="checkBox"
             />
-            <label for="specialCharacters" class="checkBox"
+            <label for="specialCharacters" class="checkBoxLabel"
               >Special Characters</label
             >
           </div>

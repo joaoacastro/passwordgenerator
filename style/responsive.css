@@ -2,18 +2,34 @@
     .logo{
         width: 300px;
     }
-    .container-input{
-        width: 200px;
+    .container-input .size {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        font-size: 17px;
+        align-items: baseline;
     }
-    .container-input span{
-        font-size: 10px;
+    .container-input .sizeNumber{
+        width: 10%;
+    }
+    .container-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .slider{
+        width: 50%;
     }
     .containerCheckBoxes {
-        width: 300px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
     .checkBoxes{
-
+        width: 80%;
+    }
+    .checkBox{
+        width: 50px;
     }
 }
