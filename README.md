@@ -1,3 +1,5 @@
+## Password Generator
+
 Project developed using only HTML5, CSS3 and JavaScript.
 
 You can check this project online through this link: <a href="https://joaoacastro.github.io/passwordgenerator/" target="_blank"> Password Generator </a> 
